@@ -1,0 +1,91 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+    int tigger = 0;
+    int rabbit = 0;
+    int piglet = 0;
+    int eeyore = 0;
+    int WinnieThePooh = 0;
+    string answer;
+
+    cout << "what's your favorite animal?" << endl;
+    cin >> answer;
+
+    if (answer == "bears")
+        WinnieThePooh += 1;
+    else if (answer == "pigs")
+        piglet += 1;
+    else if (answer == "donkeys")
+        eeyore += 1;
+    else if (answer == "bunnies")
+        rabbit += 1;
+    else if (answer == "tigers")
+        tigger += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
+    cout << "what's your favorite color?" << endl;
+    cin >> answer;
+
+    if (answer == "pink")
+        piglet += 1;
+    else if (answer == "yellow")
+        WinnieThePooh += 3;
+    else if (answer == "gray")
+        eeyore += 1;
+    else if (answer == "white")
+        rabbit += 1;
+    else if (answer == "orange")
+        tigger += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
+    cout << "what best trait describes you?" << endl;
+    cin >> answer;
+
+    if (answer == "optimistic")
+        WinnieThePooh += 1;
+    else if (answer == "nosey")
+        rabbit += 3;
+    else if (answer == "confident")
+        tigger += 1;
+    else if (answer == "anxious")
+        piglet += 1;
+    else if (answer == "gloomy")
+        eeyore += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
+    cout << "choose a snack" << endl;
+    cin >> answer;
+
+    if (answer == "honey")
+        WinnieThePooh += 1;
+    else if (answer == "ice cream")
+        eeyore += 1;
+    else if (answer == "chips")
+        tigger += 1;
+    else if (answer == "carrots")
+        rabbit += 1;
+    else if (answer == "cookies")
+        piglet += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
+    if (WinnieThePooh >= eeyore && WinnieThePooh >= tigger && WinnieThePooh >= piglet and WinnieThePooh >= rabbit)
+        cout << "you are WinnieThePooh!" << endl;
+    else if (eeyore >= tigger && eeyore >= piglet && eeyore >= rabbit)
+        cout << "you are eeyore!" << endl;
+    else if (tigger >= piglet and tigger >= rabbit)
+        cout << "you are tigger!" << endl;
+    else if (piglet >= rabbit)
+        cout << "you are piglet" << endl;
+    else
+        cout << "you are rabbit" << endl;
+
+}
