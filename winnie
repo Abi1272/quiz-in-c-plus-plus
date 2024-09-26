@@ -9,7 +9,7 @@ int main() {
     int WinnieThePooh = 0;
     string answer;
 
-    cout << "what's your favorite animal?" << endl;
+    cout << ("what's your favorite animal? (bears, pigs, donkeys, bunnies, tigers)") << endl;
     cin >> answer;
 
     if (answer == "bears")
@@ -26,7 +26,7 @@ int main() {
         cout << ("sorry that's not an option") << endl;
 
 
-    cout << "what's your favorite color?" << endl;
+    cout << ("what's your favorite color? (pink, yellow, gray, white, orange)") << endl;
     cin >> answer;
 
     if (answer == "pink")
@@ -43,7 +43,7 @@ int main() {
         cout << ("sorry that's not an option") << endl;
 
 
-    cout << "what best trait describes you?" << endl;
+    cout << ("what best trait describes you? (optimistic, nosey, confident, anxious, gloomy)") << endl;
     cin >> answer;
 
     if (answer == "optimistic")
@@ -60,7 +60,7 @@ int main() {
         cout << ("sorry that's not an option") << endl;
 
 
-    cout << "choose a snack" << endl;
+    cout << ("choose a snack (honey, ice cream, chips, carrots, cookies)") << endl;
     cin >> answer;
 
     if (answer == "honey")
@@ -76,7 +76,7 @@ int main() {
     else
         cout << ("sorry that's not an option") << endl;
 
-    cout << "How would you spend a friday?" << endl;
+    cout << ("How would you spend a friday? (eating, sleeping, friends, reading, home)") << endl;
     cin >> answer;
 
     if (answer == "eating")
@@ -92,7 +92,7 @@ int main() {
     else
         cout << ("sorry that's not an option") << endl;
 
-    cout << "what's your favorite school subject?" << endl;
+    cout << ("what's your favorite school subject? (english, lunch, none, theater, P.E.)") << endl;
     cin >> answer;
 
     if (answer == "english")
@@ -101,14 +101,14 @@ int main() {
         WinnieThePooh += 3;
     else if (answer == "none")
         eeyore += 1;
-    else if (answer == "Theater")
+    else if (answer == "theater")
         rabbit += 1;
     else if (answer == "P.E.")
         tigger += 1;
     else
         cout << ("sorry that's not an option") << endl;
 
-    cout << "Favorite drink?" << endl;
+    cout << ("Favorite drink? (soda, smootie, FruitPunch, water, ChocolateMilk)") << endl;
     cin >> answer;
 
     if (answer == "soda")
@@ -125,7 +125,7 @@ int main() {
         cout << ("sorry that's not an option") << endl;
 
 
-    cout << "are you introverted or extroverted?" << endl;
+    cout << ("are you introverted or extroverted? (introverted, extroverted)") << endl;
     cin >> answer;
 
     if (answer == "introverted")
@@ -141,7 +141,7 @@ int main() {
     else
         cout << ("sorry that's not an option") << endl;
 
-    cout << "what genre of movies do you like?" << endl;
+    cout << ("what genre of movies do you like? (comedy, romance, action, horror, fantasy)") << endl;
     cin >> answer;
 
     if (answer == "comedy")
@@ -157,7 +157,7 @@ int main() {
     else
         cout << ("sorry that's not an option") << endl;
 
-    cout << "pick a music genre?" << endl;
+    cout << ("pick a music genre? (rock, jazz, r&b, country, rap)") << endl;
     cin >> answer;
 
     if (answer == "rock")
