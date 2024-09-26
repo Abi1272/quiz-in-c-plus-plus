@@ -60,7 +60,7 @@ int main() {
         cout << ("sorry that's not an option") << endl;
 
 
-    cout << ("choose a snack (honey, ice cream, chips, carrots, cookies)") << endl;
+    cout << ("choose a snack (honey, IceCream, chips, carrots, cookies)") << endl;
     cin >> answer;
 
     if (answer == "honey")
