@@ -65,7 +65,7 @@ int main() {
 
     if (answer == "honey")
         WinnieThePooh += 1;
-    else if (answer == "ice cream")
+    else if (answer == "IceCream")
         eeyore += 1;
     else if (answer == "chips")
         tigger += 1;
