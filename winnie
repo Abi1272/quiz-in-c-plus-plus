@@ -76,6 +76,104 @@ int main() {
     else
         cout << ("sorry that's not an option") << endl;
 
+    cout << "How would you spend a friday?" << endl;
+    cin >> answer;
+
+    if (answer == "eating")
+        WinnieThePooh += 1;
+    else if (answer == "sleeping")
+        eeyore += 1;
+    else if (answer == "friends")
+        tigger += 1;
+    else if (answer == "reading")
+        rabbit += 1;
+    else if (answer == "home")
+        piglet += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+    cout << "what's your favorite school subject?" << endl;
+    cin >> answer;
+
+    if (answer == "english")
+        piglet += 1;
+    else if (answer == "lunch")
+        WinnieThePooh += 3;
+    else if (answer == "none")
+        eeyore += 1;
+    else if (answer == "Theater")
+        rabbit += 1;
+    else if (answer == "P.E.")
+        tigger += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+    cout << "Favorite drink?" << endl;
+    cin >> answer;
+
+    if (answer == "soda")
+        WinnieThePooh += 1;
+    else if (answer == "smootie")
+        rabbit += 3;
+    else if (answer == "FruitPunch")
+        tigger += 1;
+    else if (answer == "water")
+        piglet += 1;
+    else if (answer == "ChocolateMilk")
+        eeyore += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
+    cout << "are you introverted or extroverted?" << endl;
+    cin >> answer;
+
+    if (answer == "introverted")
+        piglet += 1;
+    else if (answer == "extroverted")
+        WinnieThePooh += 1;
+    else if (answer == "introverted")
+        eeyore += 1;
+    else if (answer == "introverted")
+        rabbit += 1;
+    else if (answer == "extroverted")
+        tigger += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+    cout << "what genre of movies do you like?" << endl;
+    cin >> answer;
+
+    if (answer == "comedy")
+        WinnieThePooh += 1;
+    else if (answer == "romance")
+        eeyore += 1;
+    else if (answer == "action")
+        tigger += 1;
+    else if (answer == "horror")
+        rabbit += 1;
+    else if (answer == "fantasy")
+        piglet += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+    cout << "pick a music genre?" << endl;
+    cin >> answer;
+
+    if (answer == "rock")
+        WinnieThePooh += 1;
+    else if (answer == "jazz")
+        piglet += 1;
+    else if (answer == "r&b")
+        eeyore += 1;
+    else if (answer == "country")
+        rabbit += 1;
+    else if (answer == "rap")
+        tigger += 1;
+    else
+        cout << ("sorry that's not an option") << endl;
+
+
 
     if (WinnieThePooh >= eeyore && WinnieThePooh >= tigger && WinnieThePooh >= piglet and WinnieThePooh >= rabbit)
         cout << "you are WinnieThePooh!" << endl;
